@@ -1,6 +1,25 @@
 <div class="container mt-4">
   <h1 class="mb-4">Product List</h1>
 
+  <div class="mb-4">
+    <div class="row g-3 align-items-center">
+      <div class="col-auto">
+        <label for="categoryFilter" class="col-form-label">Filter by Category:</label>
+      </div>
+      <div class="col-auto">
+        <select id="categoryFilter" class="form-select" [(ngModel)]="selectedCategory">
+          <option value="">All Categories</option>
+          @for (category of categories(); track category) {
+            <option [value]="category">{{ category }}</option>
+          }
+        </select>
+      </div>
+      <div class="col-auto">
+        <button type="button" class="btn btn-primary" (click)="applyFilter()">Apply</button>
+      </div>
+    </div>
+  </div>
+
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
     @for (product of products(); track product.productId) {
       <div class="col">

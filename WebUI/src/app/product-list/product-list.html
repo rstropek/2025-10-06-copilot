@@ -1,0 +1,23 @@
+<div class="container mt-4">
+  <h1 class="mb-4">Product List</h1>
+
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+    @for (product of products(); track product.productId) {
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-body">
+            <h5 class="card-title">{{ product.articleName }}</h5>
+            <h6 class="card-subtitle mb-2 text-muted">{{ product.articleNumber }}</h6>
+            <p class="card-text">{{ product.description }}</p>
+            <p class="card-text"><strong>Category:</strong> {{ product.category }}</p>
+            <div class="d-flex flex-wrap gap-1">
+              @for (tag of product.tags; track tag) {
+                <span class="badge bg-secondary">{{ tag }}</span>
+              }
+            </div>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

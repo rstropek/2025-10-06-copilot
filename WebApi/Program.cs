@@ -1,4 +1,5 @@
 using WebApi.Healthchecks;
+using WebApi.Products;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
@@ -15,5 +16,6 @@ var app = builder.Build();
 
 app.UseCors();
 app.MapHealthEndpoints();
+app.MapProductEndpoints();
 
 app.Run();

@@ -11,7 +11,7 @@ public static class ProductRoutes
         {
             var productsApi = api.MapGroup("/products");
 
-            productsApi.MapGet("/", async () =>
+            productsApi.MapGet("/", async (string? category) =>
             {
                 var jsonPath = Path.Combine(AppContext.BaseDirectory, "Products", "hagleitner-products.json");
                 var jsonContent = await File.ReadAllTextAsync(jsonPath);
@@ -27,7 +27,15 @@ public static class ProductRoutes
                     return Results.Problem("Failed to load products");
                 }
 
-                var productDtos = productsWrapper.Products.Select(p => new ProductDto(
+                var products = productsWrapper.Products;
+                
+                // Apply optional category filter
+                if (!string.IsNullOrWhiteSpace(category))
+                {
+                    products = products.Where(p => p.Category.Equals(category, StringComparison.OrdinalIgnoreCase)).ToList();
+                }
+
+                var productDtos = products.Select(p => new ProductDto(
                     p.ProductId,
                     p.ArticleNumber,
                     p.ArticleName,
@@ -37,6 +45,31 @@ public static class ProductRoutes
                 )).ToList();
 
                 return Results.Ok(productDtos);
+            });
+
+            productsApi.MapGet("/categories", async () =>
+            {
+                var jsonPath = Path.Combine(AppContext.BaseDirectory, "Products", "hagleitner-products.json");
+                var jsonContent = await File.ReadAllTextAsync(jsonPath);
+
+                var options = new JsonSerializerOptions
+                {
+                    PropertyNameCaseInsensitive = true
+                };
+                var productsWrapper = JsonSerializer.Deserialize<ProductsWrapper>(jsonContent, options);
+
+                if (productsWrapper?.Products == null)
+                {
+                    return Results.Problem("Failed to load products");
+                }
+
+                var categories = productsWrapper.Products
+                    .Select(p => p.Category)
+                    .Distinct()
+                    .OrderBy(c => c)
+                    .ToList();
+
+                return Results.Ok(categories);
             });
 
             return api;

@@ -11,7 +11,7 @@ public static class ProductRoutes
         {
             var productsApi = api.MapGroup("/products");
 
-            productsApi.MapGet("/", async (string? category) =>
+            productsApi.MapGet("/", async (string? category, string? text) =>
             {
                 var jsonPath = Path.Combine(AppContext.BaseDirectory, "Products", "hagleitner-products.json");
                 var jsonContent = await File.ReadAllTextAsync(jsonPath);
@@ -33,6 +33,15 @@ public static class ProductRoutes
                 if (!string.IsNullOrWhiteSpace(category))
                 {
                     products = products.Where(p => p.Category.Equals(category, StringComparison.OrdinalIgnoreCase)).ToList();
+                }
+
+                // Apply optional text filter (search in articleName and description)
+                if (!string.IsNullOrWhiteSpace(text))
+                {
+                    products = products.Where(p => 
+                        p.ArticleName.Contains(text, StringComparison.OrdinalIgnoreCase) ||
+                        p.Description.Contains(text, StringComparison.OrdinalIgnoreCase)
+                    ).ToList();
                 }
 
                 var productDtos = products.Select(p => new ProductDto(

@@ -1,6 +1,7 @@
 using WebApi.Healthchecks;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddServiceDefaults();
 builder.Services.AddCors(options =>
 {
     options.AddDefaultPolicy(policy =>

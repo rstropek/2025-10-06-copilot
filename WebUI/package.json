@@ -1,0 +1,42 @@
+{
+  "name": "hygiene-shop",
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "start": "node build/env_from_os_env.js && ng serve --port %PORT%",
+    "build": "ng build"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "*.html",
+        "options": {
+          "parser": "angular"
+        }
+      }
+    ]
+  },
+  "private": true,
+  "dependencies": {
+    "@angular/common": "^20.3.0",
+    "@angular/compiler": "^20.3.0",
+    "@angular/core": "^20.3.0",
+    "@angular/forms": "^20.3.0",
+    "@angular/platform-browser": "^20.3.0",
+    "@angular/router": "^20.3.0",
+    "@ng-bootstrap/ng-bootstrap": "^19.0.1",
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^20.3.4",
+    "@angular/cli": "^20.3.4",
+    "@angular/compiler-cli": "^20.3.0",
+    "@angular/localize": "^20.3.0",
+    "typescript": "~5.9.2"
+  }
+}

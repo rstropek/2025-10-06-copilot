@@ -1,0 +1,145 @@
+{
+  "products": [
+    {
+      "articleNumber": "HGL-START-2GO4PM",
+      "articleName": "START integral 2GO/4PM",
+      "description": "Installationskit mit Schlauch (Länge: 3 m, ø: 12 mm), 3/4-Zoll-Wasseranschluss und fünf Befestigungsklemmen",
+      "category": "Installationskit",
+      "tags": ["integral 2GO", "integral 4PURE/MIX"]
+    },
+    {
+      "articleNumber": "HGL-DRIP-2GO4PM",
+      "articleName": "dripTRAY integral 2GO/4PM",
+      "description": "Ausziehbare Tropftasse in Form einer Schublade, schützt Böden vor abtropfender Chemie",
+      "category": "Zubehör",
+      "tags": ["integral 2GO", "integral 4PURE/MIX"]
+    },
+    {
+      "articleNumber": "HGL-LUNA-PAPERBOY",
+      "articleName": "LUNA PAPERBOY",
+      "description": "Toilettenpapierspender fürs Hotelzimmer mit Reserverollen-System und Abrollbremse für sparsame Blattabgabe",
+      "category": "Papier",
+      "tags": ["Hohe Reichweite", "Hygienisch"]
+    },
+    {
+      "articleNumber": "HGL-MAGICUS",
+      "articleName": "MAGICUS",
+      "description": "Duftsäule - verströmt Düfte gleichmäßig in 50 bis 250 qm großen Räumen",
+      "category": "Duft",
+      "tags": ["Geräuscharm", "Gut duftend"]
+    },
+    {
+      "articleNumber": "HGL-LUNA-MULTIBOX",
+      "articleName": "LUNA MULTIBOX",
+      "description": "Universalspender - vielseitig einsetzbar, sowohl zur Wandmontage als auch als Stellbox geeignet",
+      "category": "Seife",
+      "tags": ["Handlich", "Praktisch"]
+    },
+    {
+      "articleNumber": "HGL-INT2GO-HSM",
+      "articleName": "integral 2GO HsM",
+      "description": "Dosiergerät - App-gesteuert, sendet Betriebsdaten, mischt hochkonzentrierte Reiniger und Wasser im perfekten Verhältnis",
+      "category": "Dosiergerät",
+      "tags": ["App gesteuert", "Digital"]
+    },
+    {
+      "articleNumber": "HGL-LUNA-SHOWERMAID",
+      "articleName": "LUNA SHOWERMAID",
+      "description": "Duschgelspender - portionierte Abgabe mit einer Hand bedienbar, für Dusche und Waschbecken geeignet",
+      "category": "Seife",
+      "tags": ["Personalisierbar", "Hygienisch"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-TOWEL-HYB",
+      "articleName": "XIBU TOWEL hybrid",
+      "description": "Papierhandtuchspender - berührungslose Abgabe von geschnittenem Papier mit Reserverollen-System",
+      "category": "Papier",
+      "tags": ["Berührungslos", "Digital"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-METAL-FOAM",
+      "articleName": "XIBU METAL FOAM hybrid",
+      "description": "Schaumseifenspender - Gehäuse aus hochwertigem, robustem Edelstahl mit Anti-Fingerprint-Beschichtung",
+      "category": "Seife",
+      "tags": ["Anti-Fingerprint", "Edelstahl"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-TISSUE-ANA",
+      "articleName": "XIBU TISSUEPAPER analog",
+      "description": "Toilettenpapierspender mit Zwei-Rollen-System, eine Füllung ersetzt bis zu acht herkömmliche Rollen",
+      "category": "Papier",
+      "tags": ["Hohe Reichweite", "Versperrbar"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-TABLE-HYB",
+      "articleName": "XIBU TABLE hybrid",
+      "description": "Tischstandfuß für Händedesinfektion mit integrierter Tropftasse, vielerorts und flexibel einsetzbar",
+      "category": "Desinfektion",
+      "tags": ["Für XIBU", "Hygienisch"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-TOWEL-ANA",
+      "articleName": "XIBU TOWEL analog",
+      "description": "Papierhandtuchspender - manuelle Abgabe von geschnittenem Papier mit Reserverollen-System",
+      "category": "Papier",
+      "tags": ["Füllstandsanzeige", "Versperrbar"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-XL-FLUID",
+      "articleName": "XIBU XL FLUID analog",
+      "description": "Spender für Hautschutz und Handhygiene mit manueller Abgabe, spritzwasserfest",
+      "category": "Haut & Handschutz (PSA)",
+      "tags": ["Belastbar", "Hohe Reichweite"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-METAL-TOWEL",
+      "articleName": "XIBU METAL TOWEL hybrid",
+      "description": "Papierhandtuchspender - Gehäuse aus hochwertigem, robustem Edelstahl mit Anti-Fingerprint-Beschichtung",
+      "category": "Papier",
+      "tags": ["Anti-Fingerprint", "Edelstahl"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-SEAT-DIS",
+      "articleName": "XIBU SEAT DISINFECT hybrid",
+      "description": "Desinfektionsspender für die WC-Brille mit berührungsloser Abgabe, sendet Betriebsdaten",
+      "category": "Desinfektion",
+      "tags": ["Berührungslos", "Digital"]
+    },
+    {
+      "articleNumber": "HGL-ABROLL-COVER",
+      "articleName": "abrollVORRICHTUNG COVER",
+      "description": "Papierspender - Abrollvorrichtung zur Tisch- und Wandmontage mit Abdeckung für Schutz vor Spritzwasser",
+      "category": "Papier",
+      "tags": ["Belastbar", "Lebensmittelnaher Bereich"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-AIRFRESH-MOB",
+      "articleName": "XIBU AIRFRESH mobile",
+      "description": "Standfuß - macht den Spender mobil und flexibel einsetzbar",
+      "category": "Duft",
+      "tags": ["Kompakt", "Für XIBU"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-XL-SPACER",
+      "articleName": "XIBU XL SPACER KIT",
+      "description": "Verbindungsteil zur Reihenmontage von bis zu fünf XIBU XL FLUID Spendern",
+      "category": "Zubehör",
+      "tags": ["Kompakt", "Für XIBU"]
+    },
+    {
+      "articleNumber": "HGL-XIBU-MULTIFOLD",
+      "articleName": "XIBU MULTIFOLD",
+      "description": "Papierhandtuchspender - Spender für Faltpapierhandtücher mit kompaktem Spendergehäuse",
+      "category": "Papier",
+      "tags": ["Kompakt", "Sparsam"]
+    },
+    {
+      "articleNumber": "HGL-ENERGYBOX-S",
+      "articleName": "energyBOX S",
+      "description": "Energieeinheit mit Energie-Codierung und einfachem Handling",
+      "category": "Energie",
+      "tags": ["Für XIBU", "Hohe Reichweite"]
+    }
+  ]
+}
+

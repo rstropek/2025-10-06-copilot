@@ -1,0 +1,9 @@
+<h2>Healthcheck</h2>
+
+@if (healthy() === undefined) {
+  <p>Loading...</p>
+} @else if (healthy()) {
+  <p>Healthy</p>
+} @else {
+  <p>Unhealthy</p>
+}

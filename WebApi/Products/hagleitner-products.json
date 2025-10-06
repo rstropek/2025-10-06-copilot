@@ -1,6 +1,7 @@
 {
   "products": [
     {
+      "productID": 100000,
       "articleNumber": "HGL-START-2GO4PM",
       "articleName": "START integral 2GO/4PM",
       "description": "Installationskit mit Schlauch (Länge: 3 m, ø: 12 mm), 3/4-Zoll-Wasseranschluss und fünf Befestigungsklemmen",
@@ -8,6 +9,7 @@
       "tags": ["integral 2GO", "integral 4PURE/MIX"]
     },
     {
+      "productID": 100001,
       "articleNumber": "HGL-DRIP-2GO4PM",
       "articleName": "dripTRAY integral 2GO/4PM",
       "description": "Ausziehbare Tropftasse in Form einer Schublade, schützt Böden vor abtropfender Chemie",
@@ -15,6 +17,7 @@
       "tags": ["integral 2GO", "integral 4PURE/MIX"]
     },
     {
+      "productID": 100002,
       "articleNumber": "HGL-LUNA-PAPERBOY",
       "articleName": "LUNA PAPERBOY",
       "description": "Toilettenpapierspender fürs Hotelzimmer mit Reserverollen-System und Abrollbremse für sparsame Blattabgabe",
@@ -22,6 +25,7 @@
       "tags": ["Hohe Reichweite", "Hygienisch"]
     },
     {
+      "productID": 100003,
       "articleNumber": "HGL-MAGICUS",
       "articleName": "MAGICUS",
       "description": "Duftsäule - verströmt Düfte gleichmäßig in 50 bis 250 qm großen Räumen",
@@ -29,6 +33,7 @@
       "tags": ["Geräuscharm", "Gut duftend"]
     },
     {
+      "productID": 100004,
       "articleNumber": "HGL-LUNA-MULTIBOX",
       "articleName": "LUNA MULTIBOX",
       "description": "Universalspender - vielseitig einsetzbar, sowohl zur Wandmontage als auch als Stellbox geeignet",
@@ -36,6 +41,7 @@
       "tags": ["Handlich", "Praktisch"]
     },
     {
+      "productID": 100005,
       "articleNumber": "HGL-INT2GO-HSM",
       "articleName": "integral 2GO HsM",
       "description": "Dosiergerät - App-gesteuert, sendet Betriebsdaten, mischt hochkonzentrierte Reiniger und Wasser im perfekten Verhältnis",
@@ -43,6 +49,7 @@
       "tags": ["App gesteuert", "Digital"]
     },
     {
+      "productID": 100006,
       "articleNumber": "HGL-LUNA-SHOWERMAID",
       "articleName": "LUNA SHOWERMAID",
       "description": "Duschgelspender - portionierte Abgabe mit einer Hand bedienbar, für Dusche und Waschbecken geeignet",
@@ -50,6 +57,7 @@
       "tags": ["Personalisierbar", "Hygienisch"]
     },
     {
+      "productID": 100007,
       "articleNumber": "HGL-XIBU-TOWEL-HYB",
       "articleName": "XIBU TOWEL hybrid",
       "description": "Papierhandtuchspender - berührungslose Abgabe von geschnittenem Papier mit Reserverollen-System",
@@ -57,6 +65,7 @@
       "tags": ["Berührungslos", "Digital"]
     },
     {
+      "productID": 100008,
       "articleNumber": "HGL-XIBU-METAL-FOAM",
       "articleName": "XIBU METAL FOAM hybrid",
       "description": "Schaumseifenspender - Gehäuse aus hochwertigem, robustem Edelstahl mit Anti-Fingerprint-Beschichtung",
@@ -64,6 +73,7 @@
       "tags": ["Anti-Fingerprint", "Edelstahl"]
     },
     {
+      "productID": 100009,
       "articleNumber": "HGL-XIBU-TISSUE-ANA",
       "articleName": "XIBU TISSUEPAPER analog",
       "description": "Toilettenpapierspender mit Zwei-Rollen-System, eine Füllung ersetzt bis zu acht herkömmliche Rollen",
@@ -71,6 +81,7 @@
       "tags": ["Hohe Reichweite", "Versperrbar"]
     },
     {
+      "productID": 100010,
       "articleNumber": "HGL-XIBU-TABLE-HYB",
       "articleName": "XIBU TABLE hybrid",
       "description": "Tischstandfuß für Händedesinfektion mit integrierter Tropftasse, vielerorts und flexibel einsetzbar",
@@ -78,6 +89,7 @@
       "tags": ["Für XIBU", "Hygienisch"]
     },
     {
+      "productID": 100011,
       "articleNumber": "HGL-XIBU-TOWEL-ANA",
       "articleName": "XIBU TOWEL analog",
       "description": "Papierhandtuchspender - manuelle Abgabe von geschnittenem Papier mit Reserverollen-System",
@@ -85,6 +97,7 @@
       "tags": ["Füllstandsanzeige", "Versperrbar"]
     },
     {
+      "productID": 100012,
       "articleNumber": "HGL-XIBU-XL-FLUID",
       "articleName": "XIBU XL FLUID analog",
       "description": "Spender für Hautschutz und Handhygiene mit manueller Abgabe, spritzwasserfest",
@@ -92,6 +105,7 @@
       "tags": ["Belastbar", "Hohe Reichweite"]
     },
     {
+      "productID": 100013,
       "articleNumber": "HGL-XIBU-METAL-TOWEL",
       "articleName": "XIBU METAL TOWEL hybrid",
       "description": "Papierhandtuchspender - Gehäuse aus hochwertigem, robustem Edelstahl mit Anti-Fingerprint-Beschichtung",
@@ -99,6 +113,7 @@
       "tags": ["Anti-Fingerprint", "Edelstahl"]
     },
     {
+      "productID": 100014,
       "articleNumber": "HGL-XIBU-SEAT-DIS",
       "articleName": "XIBU SEAT DISINFECT hybrid",
       "description": "Desinfektionsspender für die WC-Brille mit berührungsloser Abgabe, sendet Betriebsdaten",
@@ -106,6 +121,7 @@
       "tags": ["Berührungslos", "Digital"]
     },
     {
+      "productID": 100015,
       "articleNumber": "HGL-ABROLL-COVER",
       "articleName": "abrollVORRICHTUNG COVER",
       "description": "Papierspender - Abrollvorrichtung zur Tisch- und Wandmontage mit Abdeckung für Schutz vor Spritzwasser",
@@ -113,6 +129,7 @@
       "tags": ["Belastbar", "Lebensmittelnaher Bereich"]
     },
     {
+      "productID": 100016,
       "articleNumber": "HGL-XIBU-AIRFRESH-MOB",
       "articleName": "XIBU AIRFRESH mobile",
       "description": "Standfuß - macht den Spender mobil und flexibel einsetzbar",
@@ -120,6 +137,7 @@
       "tags": ["Kompakt", "Für XIBU"]
     },
     {
+      "productID": 100017,
       "articleNumber": "HGL-XIBU-XL-SPACER",
       "articleName": "XIBU XL SPACER KIT",
       "description": "Verbindungsteil zur Reihenmontage von bis zu fünf XIBU XL FLUID Spendern",
@@ -127,6 +145,7 @@
       "tags": ["Kompakt", "Für XIBU"]
     },
     {
+      "productID": 100018,
       "articleNumber": "HGL-XIBU-MULTIFOLD",
       "articleName": "XIBU MULTIFOLD",
       "description": "Papierhandtuchspender - Spender für Faltpapierhandtücher mit kompaktem Spendergehäuse",
@@ -134,6 +153,7 @@
       "tags": ["Kompakt", "Sparsam"]
     },
     {
+      "productID": 100019,
       "articleNumber": "HGL-ENERGYBOX-S",
       "articleName": "energyBOX S",
       "description": "Energieeinheit mit Energie-Codierung und einfachem Handling",
